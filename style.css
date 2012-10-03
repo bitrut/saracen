@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Armata);
+html {
+	background: #eee url(img/background.png) repeat;	
+}
+body {
+	margin-top: 10px;
+	background-color: transparent;
+	font-family: 'Open Sans', sans-serif;
+}
+.center {
+	margin: auto;
+}
+#promo {
+	background-color: black;
+}
+#woman {
+	background: black url(img/woman-full.jpg) no-repeat bottom right;
+	filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-webkit-filter: grayscale(1);	
+	-moz-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	transition: all 1s linear;	
+	height: 330px;
+}
+#woman:hover {
+	filter: none;
+	-moz-filter: none;
+	-webkit-filter: none;	
+	-moz-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	transition: all 1s linear;
+}
+#promo #slides {
+	padding: 33px;
+}
+#promo #slides .slides_container {
+	height: 260px;
+}
+#content {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 1.7em;
+}
+
+#content p {
+	margin-top: 1.7em;
+}
