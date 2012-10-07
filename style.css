@@ -21,6 +21,11 @@ a:hover {
 #promo {
 	background-color: black;
 }
+@media screen and (max-width: 960px) {
+	#promo {
+		display: none;
+	}
+}
 #woman {
 	background: black url(img/woman-full.jpg) no-repeat bottom right;
 	filter: grayscale(1);
