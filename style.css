@@ -27,16 +27,18 @@ a:hover {
 	}
 }
 #woman {
-	background: black url(img/woman-full.jpg) no-repeat bottom right;
+	background: black url(img/woman-full.jpg) no-repeat bottom right;	
+	height: 330px;
+}
+#woman, #logos {	
 	filter: grayscale(1);
 	-moz-filter: grayscale(1);
 	-webkit-filter: grayscale(1);	
 	-moz-transition: all 1s linear;
 	-webkit-transition: all 1s linear;
-	transition: all 1s linear;	
-	height: 330px;
+	transition: all 1s linear;
 }
-#woman:hover {
+#woman:hover, #logos:hover {
 	filter: none;
 	-moz-filter: none;
 	-webkit-filter: none;	
