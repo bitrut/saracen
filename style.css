@@ -7,7 +7,13 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 a {
-	color: #d66818;
+	color: #d96a1a;
+}
+a:hover {
+	color: #9d3d00;
+}
+#logo {
+	display: block;
 }
 .center {
 	margin: auto;
@@ -40,11 +46,25 @@ a {
 	overflow: visible !important;
 }
 #content {
-	margin-top: 20px;
+	margin: 15px auto;
 	font-size: 16px;
 	line-height: 1.7em;
 }
-
 #content p {
 	margin-top: 1.7em;
+}
+#content #logos {
+	margin: 30px auto;
+}
+.text-center {
+	text-align: center;	
+}
+dl.text-center {
+	margin: 0px;	
+}
+dl.text-center dd, dl.text-center dt {
+	line-height: 1.5em;
+}
+dl.text-center dd {
+	margin-bottom: 10px;
 }
