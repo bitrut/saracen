@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Armata);
 html {
 	background: #eee url(img/background.png) repeat;	
 }
@@ -6,6 +5,9 @@ body {
 	margin-top: 10px;
 	background-color: transparent;
 	font-family: 'Open Sans', sans-serif;
+}
+a {
+	color: #d66818;
 }
 .center {
 	margin: auto;
@@ -32,10 +34,10 @@ body {
 	transition: all 1s linear;
 }
 #promo #slides {
-	padding: 33px;
+	margin-top: 15px;
 }
 #promo #slides .slides_container {
-	height: 260px;
+	overflow: visible !important;
 }
 #content {
 	margin-top: 20px;
