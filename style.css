@@ -27,7 +27,7 @@ a:hover {
 	}
 }
 #woman {
-	background: black url(img/woman-full.jpg) no-repeat bottom right;	
+	background: black url(img/woman-full.jpg) no-repeat bottom center;	
 	height: 330px;
 }
 #woman, #logos {	
